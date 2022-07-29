@@ -2,9 +2,11 @@ fun main(){
     val saudacao: String = "Hello"
     println(saudacao)
 
-    val fizzBuzz = FizzBuzz()
-    val resultado = fizzBuzz.calcula(43)
+    val resultado = soma(2, 2)
     println(resultado)
+
+    val multiplicacao = multiplica(3, 2)
+    println(multiplicacao)
 }
 fun soma(a: Int, b: Int): Int{
     return(a + b)
@@ -14,4 +16,3 @@ fun soma(a: Int, b: Int): Int{
 fun multiplica(a: Int, b: Int): Int{
     return(a * b)
 }
-
